@@ -38,7 +38,7 @@ extension Transaction {
     init(plist: [String: AnyObject]) {
         amount = plist["amount"] as! Float
         description = plist["description"] as! String
-        date = plist["data"] as! Date
+        date = plist["date"] as! Date
         category = TransactionCategory(rawValue: plist["category"] as! String)!
     }
 }

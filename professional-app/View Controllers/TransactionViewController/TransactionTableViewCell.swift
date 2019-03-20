@@ -20,6 +20,7 @@ class TransactionTableViewCell: UITableViewCell {
             amountLabel.text = viewModel.amount
             amountLabel.textColor = viewModel.amountColor
             dateLabel.text = viewModel.date
+            selectionStyle = .none
         }
     }
 }
